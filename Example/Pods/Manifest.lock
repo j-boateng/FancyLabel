@@ -1,0 +1,16 @@
+PODS:
+  - FancyLabel (0.1.0)
+
+DEPENDENCIES:
+  - FancyLabel (from `../`)
+
+EXTERNAL SOURCES:
+  FancyLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FancyLabel: c34e45fa5b93a30065021937b0fbc96052e158e6
+
+PODFILE CHECKSUM: df433973de28f15a16ce5e687cdf800d7908d41d
+
+COCOAPODS: 1.10.1

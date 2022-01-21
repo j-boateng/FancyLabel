@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FancyLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FancyLabel.'
+  s.summary          = 'A simple and fancy UILabel for blinking and rotating effect'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A simple and fancy UILabel for blinking and rotating effect. Simply add it and call a method you fancy (pun intended)
                        DESC
 
-  s.homepage         = 'https://github.com/85347023/FancyLabel'
+  s.homepage         = 'https://github.com/j-boateng/FancyLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '85347023' => 'jonas.boateng@bbc.co.uk' }
-  s.source           = { :git => 'https://github.com/85347023/FancyLabel.git', :tag => s.version.to_s }
+  s.author           = { 'j-boateng' => 'jonas.boateng@bbc.co.uk' }
+  s.source           = { :git => 'https://github.com/j-boateng/FancyLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

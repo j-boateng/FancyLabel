@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1666C17606A079630746340D /* Pods-FancyLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-FancyLabel_Example/Pods-FancyLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26E275061DA979CBACB43CAB /* Pods_FancyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		348FB3983B95326B159E4AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		348FB3983B95326B159E4AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		585A43FBE9224AF34C2D82EF /* Pods_FancyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FancyLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		AF9C937F670E4FFA7F934DDD /* Pods-FancyLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FancyLabel_Tests/Pods-FancyLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB39658B89661AD5F5960BD4 /* Pods-FancyLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-FancyLabel_Tests/Pods-FancyLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6597E1304B0E84B912AFF72 /* Pods-FancyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-FancyLabel_Example/Pods-FancyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD9BCFF626037525915B9816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E7A51B0560F77942405D8B7C /* FancyLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FancyLabel.podspec; path = ../FancyLabel.podspec; sourceTree = "<group>"; };
+		DD9BCFF626037525915B9816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E7A51B0560F77942405D8B7C /* FancyLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FancyLabel.podspec; path = ../FancyLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				AF9C937F670E4FFA7F934DDD /* Pods-FancyLabel_Tests.debug.xcconfig */,
 				BB39658B89661AD5F5960BD4 /* Pods-FancyLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

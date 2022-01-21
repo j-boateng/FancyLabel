@@ -1,0 +1,6 @@
+framework module FancyLabel {
+  umbrella header "FancyLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
