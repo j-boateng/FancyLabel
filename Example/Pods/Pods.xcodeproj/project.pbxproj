@@ -11,7 +11,6 @@
 		22548FEEB72BDABE6B581BEF009D4ECD /* Pods-FancyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FCE261D9650618D25947D95425A52C /* Pods-FancyLabel_Tests-dummy.m */; };
 		2C9CD546126A4D469E4B746D917771F6 /* Pods-FancyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E218695B1639B23EE165D449975A1 /* Pods-FancyLabel_Example-dummy.m */; };
 		7268062B279B07C200A6F660 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268062A279B07C200A6F660 /* FancyLabel.swift */; };
-		7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */; };
 		897C81C9B982B6A2229B7B37C6EDD8F6 /* FancyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F1EBF5E37E561DECD69487AE80AAFE /* FancyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE53C9F86B2CD4565C987561E8178CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BFECDF0ABE391F8B0343A16D328089CE /* FancyLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9240BEA6E13E40641E01EE129AA1598 /* FancyLabel-dummy.m */; };
@@ -54,7 +53,6 @@
 		5B93C6CE3E939F597501CE317A213320 /* Pods-FancyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FancyLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		7268062A279B07C200A6F660 /* FancyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyLabel.swift; path = FancyLabel/Classes/FancyLabel.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FancyLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		78FF2D290C15542C274B0B47FDFB679E /* FancyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FancyLabel.modulemap; sourceTree = "<group>"; };
 		81F1EBF5E37E561DECD69487AE80AAFE /* FancyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyLabel-umbrella.h"; sourceTree = "<group>"; };
 		88E42D95B895A4D27BD332E436C5EFC0 /* FancyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FancyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				7268062A279B07C200A6F660 /* FancyLabel.swift */,
-				750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */,
 				F97D657F319E369D93D3E02EF83B943B /* Pod */,
 				06865DC003A8DC58C0D54FBC129F2BCB /* Support Files */,
 			);
@@ -387,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFECDF0ABE391F8B0343A16D328089CE /* FancyLabel-dummy.m in Sources */,
-				7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */,
 				7268062B279B07C200A6F660 /* FancyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
