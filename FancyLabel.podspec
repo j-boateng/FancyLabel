@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FancyLabel'
-  s.version          = '0.2.0'
+  s.version          = '1.0.0'
   s.summary          = 'A simple and fancy UILabel for blinking and rotating effect'
 
   s.description      = <<-DESC
