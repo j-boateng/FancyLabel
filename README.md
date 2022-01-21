@@ -22,7 +22,7 @@ pod 'FancyLabel'
 
 ## Author
 
-85347023, jonas.boateng@bbc.co.uk
+j-boateng, jonas.boateng@bbc.co.uk
 
 ## License
 
