@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FancyLabel_Example' do
+  pod 'FancyLabel', :path => '../'
+
+  target 'FancyLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
