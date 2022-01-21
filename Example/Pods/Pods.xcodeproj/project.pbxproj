@@ -10,7 +10,7 @@
 		1A5F00EDB5058D09CC5878043A26A79F /* Pods-FancyLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E628EF00CB845ADAFE38F4F9D2FCB251 /* Pods-FancyLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22548FEEB72BDABE6B581BEF009D4ECD /* Pods-FancyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FCE261D9650618D25947D95425A52C /* Pods-FancyLabel_Tests-dummy.m */; };
 		2C9CD546126A4D469E4B746D917771F6 /* Pods-FancyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E218695B1639B23EE165D449975A1 /* Pods-FancyLabel_Example-dummy.m */; };
-		72680629279B025A00A6F660 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72680628279B025A00A6F660 /* FancyLabel.swift */; };
+		7268062B279B07C200A6F660 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7268062A279B07C200A6F660 /* FancyLabel.swift */; };
 		7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */; };
 		897C81C9B982B6A2229B7B37C6EDD8F6 /* FancyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F1EBF5E37E561DECD69487AE80AAFE /* FancyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE53C9F86B2CD4565C987561E8178CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -52,7 +52,7 @@
 		4B8E218695B1639B23EE165D449975A1 /* Pods-FancyLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		4CCEB1BAD69F3CE6A6BD44D8763E148D /* Pods-FancyLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B93C6CE3E939F597501CE317A213320 /* Pods-FancyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FancyLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		72680628279B025A00A6F660 /* FancyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyLabel.swift; sourceTree = "<group>"; };
+		7268062A279B07C200A6F660 /* FancyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FancyLabel.swift; path = FancyLabel/Classes/FancyLabel.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FancyLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		78FF2D290C15542C274B0B47FDFB679E /* FancyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FancyLabel.modulemap; sourceTree = "<group>"; };
@@ -207,10 +207,10 @@
 		E12F87D45DBE63D46A88E442C3E8F0A3 /* FancyLabel */ = {
 			isa = PBXGroup;
 			children = (
+				7268062A279B07C200A6F660 /* FancyLabel.swift */,
 				750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */,
 				F97D657F319E369D93D3E02EF83B943B /* Pod */,
 				06865DC003A8DC58C0D54FBC129F2BCB /* Support Files */,
-				72680628279B025A00A6F660 /* FancyLabel.swift */,
 			);
 			name = FancyLabel;
 			path = ../..;
@@ -388,7 +388,7 @@
 			files = (
 				BFECDF0ABE391F8B0343A16D328089CE /* FancyLabel-dummy.m in Sources */,
 				7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */,
-				72680629279B025A00A6F660 /* FancyLabel.swift in Sources */,
+				7268062B279B07C200A6F660 /* FancyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +410,67 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		16AEF3435AE72FF6CC2B731169C0617D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E3C3AAB5A6991A36AB339CEA4B3D1E /* FancyLabel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyLabel/FancyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyLabel/FancyLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyLabel/FancyLabel.modulemap";
+				PRODUCT_MODULE_NAME = FancyLabel;
+				PRODUCT_NAME = FancyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DBC55E39EFC3F764271CE3CD7FBFE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F703B6A350CC1A0028E4ECFC96D1D865 /* FancyLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyLabel/FancyLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyLabel/FancyLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyLabel/FancyLabel.modulemap";
+				PRODUCT_MODULE_NAME = FancyLabel;
+				PRODUCT_NAME = FancyLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25486CABF260392B19374791417ABEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCBC1CB0A1531E1EFEA2400BBA7B1900 /* Pods-FancyLabel_Example.debug.xcconfig */;
@@ -606,37 +667,6 @@
 			};
 			name = Debug;
 		};
-		BA651BBBE06136F4D33B488F031AB95A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04E3C3AAB5A6991A36AB339CEA4B3D1E /* FancyLabel.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FancyLabel/FancyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FancyLabel/FancyLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FancyLabel/FancyLabel.modulemap";
-				PRODUCT_MODULE_NAME = FancyLabel;
-				PRODUCT_NAME = FancyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -698,36 +728,6 @@
 			};
 			name = Release;
 		};
-		FDD28AAD26BC89A113FA3A8C865F5C96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F703B6A350CC1A0028E4ECFC96D1D865 /* FancyLabel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FancyLabel/FancyLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FancyLabel/FancyLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FancyLabel/FancyLabel.modulemap";
-				PRODUCT_MODULE_NAME = FancyLabel;
-				PRODUCT_NAME = FancyLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -743,8 +743,8 @@
 		711ED75776919FE67743194422EE9A5C /* Build configuration list for PBXNativeTarget "FancyLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDD28AAD26BC89A113FA3A8C865F5C96 /* Debug */,
-				BA651BBBE06136F4D33B488F031AB95A /* Release */,
+				1DBC55E39EFC3F764271CE3CD7FBFE9A /* Debug */,
+				16AEF3435AE72FF6CC2B731169C0617D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
