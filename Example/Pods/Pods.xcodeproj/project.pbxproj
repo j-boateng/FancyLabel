@@ -10,6 +10,7 @@
 		1A5F00EDB5058D09CC5878043A26A79F /* Pods-FancyLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E628EF00CB845ADAFE38F4F9D2FCB251 /* Pods-FancyLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22548FEEB72BDABE6B581BEF009D4ECD /* Pods-FancyLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FCE261D9650618D25947D95425A52C /* Pods-FancyLabel_Tests-dummy.m */; };
 		2C9CD546126A4D469E4B746D917771F6 /* Pods-FancyLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E218695B1639B23EE165D449975A1 /* Pods-FancyLabel_Example-dummy.m */; };
+		72680629279B025A00A6F660 /* FancyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72680628279B025A00A6F660 /* FancyLabel.swift */; };
 		7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */; };
 		897C81C9B982B6A2229B7B37C6EDD8F6 /* FancyLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F1EBF5E37E561DECD69487AE80AAFE /* FancyLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE53C9F86B2CD4565C987561E8178CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		04E3C3AAB5A6991A36AB339CEA4B3D1E /* FancyLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyLabel.release.xcconfig; sourceTree = "<group>"; };
 		11EB3D2848405A98C9B51F66BC87D153 /* FancyLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FancyLabel-Info.plist"; sourceTree = "<group>"; };
-		160A6495475373B7F9231A80FF45264C /* FancyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FancyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		160A6495475373B7F9231A80FF45264C /* FancyLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FancyLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		183B59915A41FBD4DE115DB58EC371F0 /* FancyLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyLabel-prefix.pch"; sourceTree = "<group>"; };
 		1A9ABB49D6E78847CE5B275BA7AF761A /* Pods-FancyLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FancyLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E270D27001960558A7BAF576798CA47 /* Pods-FancyLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FancyLabel_Example.modulemap"; sourceTree = "<group>"; };
@@ -47,28 +48,29 @@
 		37DD5353997741B63445626964F513E4 /* Pods-FancyLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FancyLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		37F371EF642B1D895B4E37EAB0A2DE1E /* Pods-FancyLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41123AFC987B96DDCB5B054BC59B75E0 /* Pods-FancyLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyLabel_Example-Info.plist"; sourceTree = "<group>"; };
-		465FD88AE628562DF923E08F96EB0C02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		465FD88AE628562DF923E08F96EB0C02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B8E218695B1639B23EE165D449975A1 /* Pods-FancyLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		4CCEB1BAD69F3CE6A6BD44D8763E148D /* Pods-FancyLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B93C6CE3E939F597501CE317A213320 /* Pods-FancyLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FancyLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		72680628279B025A00A6F660 /* FancyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyLabel.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FancyLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		78FF2D290C15542C274B0B47FDFB679E /* FancyLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FancyLabel.modulemap; sourceTree = "<group>"; };
 		81F1EBF5E37E561DECD69487AE80AAFE /* FancyLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyLabel-umbrella.h"; sourceTree = "<group>"; };
-		88E42D95B895A4D27BD332E436C5EFC0 /* FancyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FancyLabel.framework; path = FancyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E42D95B895A4D27BD332E436C5EFC0 /* FancyLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FancyLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBB1CD055574CB56450FDA62778CECB /* Pods-FancyLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		907F39B9988222D9CECDB5555B67728C /* Pods-FancyLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D616D0E9457DF2ACEC269BE3789EF53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D616D0E9457DF2ACEC269BE3789EF53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A47BBEF0303A03DFB25DEB590792D728 /* Pods-FancyLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE4E56DE4504C76B45A1FD7DE1C12FE3 /* Pods-FancyLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		B1BE0A1E30A4CDFBD37B1632F352187E /* Pods-FancyLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FancyLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B68FDF0F8D3F27A572079A71A3509CD0 /* Pods_FancyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FancyLabel_Tests.framework; path = "Pods-FancyLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68FDF0F8D3F27A572079A71A3509CD0 /* Pods_FancyLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9240BEA6E13E40641E01EE129AA1598 /* FancyLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FancyLabel-dummy.m"; sourceTree = "<group>"; };
 		C1FCE261D9650618D25947D95425A52C /* Pods-FancyLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FancyLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		DCBC1CB0A1531E1EFEA2400BBA7B1900 /* Pods-FancyLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FancyLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E628EF00CB845ADAFE38F4F9D2FCB251 /* Pods-FancyLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FancyLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E9D4A8CF2D5A008B38D8FACA6F6ECBF1 /* Pods_FancyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FancyLabel_Example.framework; path = "Pods-FancyLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D4A8CF2D5A008B38D8FACA6F6ECBF1 /* Pods_FancyLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F703B6A350CC1A0028E4ECFC96D1D865 /* FancyLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyLabel.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,6 +210,7 @@
 				750D1F7D815A94DA78EE64AFA29072DB /* ReplaceMe.swift */,
 				F97D657F319E369D93D3E02EF83B943B /* Pod */,
 				06865DC003A8DC58C0D54FBC129F2BCB /* Support Files */,
+				72680628279B025A00A6F660 /* FancyLabel.swift */,
 			);
 			name = FancyLabel;
 			path = ../..;
@@ -385,6 +388,7 @@
 			files = (
 				BFECDF0ABE391F8B0343A16D328089CE /* FancyLabel-dummy.m in Sources */,
 				7C219B3A7F48339DF2027D326BC62C4D /* ReplaceMe.swift in Sources */,
+				72680629279B025A00A6F660 /* FancyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,8 +692,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
